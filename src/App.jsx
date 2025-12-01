@@ -1,26 +1,48 @@
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, MapPin, Clock, Sparkles } from 'lucide-react';
 
+// Import delle immagini
+import studio1 from './assets/images/studio_1.jpeg';
+import studio2 from './assets/images/studio_2.jpeg';
+import studio3 from './assets/images/studio_3.jpeg';
+import studio4 from './assets/images/studio_4.jpeg';
+import studio5 from './assets/images/studio_5.jpeg';
+import mani1 from './assets/images/mani_1.jpeg';
+import mani2 from './assets/images/mani_2.jpeg';
+import mani3 from './assets/images/mani_3.jpeg';
+import mani4 from './assets/images/mani_4.jpeg';
+import occhi1 from './assets/images/occhi_1.jpeg';
+import occhi2 from './assets/images/occhi_2.jpeg';
+import occhi3 from './assets/images/occhi_3.jpeg';
+import viso1 from './assets/images/viso_1.jpeg';
+import viso2 from './assets/images/viso_2.jpeg';
+import viso3 from './assets/images/viso_3.jpeg';
+import viso4 from './assets/images/viso_4.jpeg';
+import viso5 from './assets/images/viso_5.jpeg';
+import viso6 from './assets/images/viso_6.jpeg';
+import viso7 from './assets/images/viso_7.jpeg';
+import gsLogo from './assets/images/gsLogo.svg';
+
 const slides = [
-  { url: '/src/assets/images/studio_1.jpeg', alt: 'Studio GS Beauty' },
-  { url: '/src/assets/images/studio_2.jpeg', alt: 'Studio GS Beauty' },
-  { url: '/src/assets/images/studio_3.jpeg', alt: 'Studio GS Beauty' },
-  { url: '/src/assets/images/studio_4.jpeg', alt: 'Studio GS Beauty' },
-  { url: '/src/assets/images/studio_5.jpeg', alt: 'Sala trattamenti' },
-  { url: '/src/assets/images/mani_1.jpeg', alt: 'Manicure' },
-  { url: '/src/assets/images/mani_2.jpeg', alt: 'Nail art rosa' },
-  { url: '/src/assets/images/mani_3.jpeg', alt: 'Unghie gel' },
-  { url: '/src/assets/images/mani_4.jpeg', alt: 'French manicure' },
-  { url: '/src/assets/images/occhi_1.jpeg', alt: 'Extension ciglia' },
-  { url: '/src/assets/images/occhi_2.jpeg', alt: 'Ciglia volume' },
-  { url: '/src/assets/images/occhi_3.jpeg', alt: 'Occhi' },
-  { url: '/src/assets/images/viso_1.jpeg', alt: 'Trattamento viso' },
-  { url: '/src/assets/images/viso_2.jpeg', alt: 'Trattamento viso' },
-  { url: '/src/assets/images/viso_3.jpeg', alt: 'Trattamento viso' },
-  { url: '/src/assets/images/viso_4.jpeg', alt: 'Trattamento viso' },
-  { url: '/src/assets/images/viso_5.jpeg', alt: 'Trattamento viso' },
-  { url: '/src/assets/images/viso_6.jpeg', alt: 'Trattamento viso' },
-  { url: '/src/assets/images/viso_7.jpeg', alt: 'Pulizia viso' },
+  { url: studio1, alt: 'Studio GS Beauty' },
+  { url: studio2, alt: 'Studio GS Beauty' },
+  { url: studio3, alt: 'Studio GS Beauty' },
+  { url: studio4, alt: 'Studio GS Beauty' },
+  { url: studio5, alt: 'Sala trattamenti' },
+  { url: mani1, alt: 'Manicure' },
+  { url: mani2, alt: 'Nail art rosa' },
+  { url: mani3, alt: 'Unghie gel' },
+  { url: mani4, alt: 'French manicure' },
+  { url: occhi1, alt: 'Extension ciglia' },
+  { url: occhi2, alt: 'Ciglia volume' },
+  { url: occhi3, alt: 'Occhi' },
+  { url: viso1, alt: 'Trattamento viso' },
+  { url: viso2, alt: 'Trattamento viso' },
+  { url: viso3, alt: 'Trattamento viso' },
+  { url: viso4, alt: 'Trattamento viso' },
+  { url: viso5, alt: 'Trattamento viso' },
+  { url: viso6, alt: 'Trattamento viso' },
+  { url: viso7, alt: 'Pulizia viso' },
 ];
 
 const App = () => {
@@ -84,7 +106,7 @@ const App = () => {
                 <div className="relative bg-gradient-to-br from-pink-100 via-rose-100 to-pink-200 rounded-full p-1.5 sm:p-2 shadow-2xl group-hover:shadow-pink-300/50 transition-all duration-500 group-hover:scale-105">
                   <div className="bg-white rounded-full p-2 sm:p-3">
                     <img
-                      src="/src/assets/images/gsLogo.svg"
+                      src={gsLogo}
                       alt="GS Beauty Studio Logo"
                       className="h-24 w-24 sm:h-36 sm:w-36 md:h-44 md:w-44 transition-transform duration-500 group-hover:rotate-6"
                     />
