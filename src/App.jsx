@@ -204,7 +204,7 @@ const App = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-pink-300 to-rose-300 rounded-2xl sm:rounded-3xl blur-lg sm:blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border-2 sm:border-4 border-white group-hover:border-pink-200 transition-all duration-500">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.52695744049785!2d9.076535740711536!3d45.587754559090584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786945171f9dd05%3A0xba74b9980b2cda33!2sVia%20dei%20Mille%2C%208%2C%2020024%20Cesate%20MI!5e0!3m2!1sit!2sit!4v1761225190693!5m2!1sit!2sit"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.52695744049785!2d9.076535740711536!3d45.587754559090584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786945171f9dd05%3A0xba74b9980b2cda33!2sVia%20dei%20Mille%2C%208%2C%2020024%20Cesate%20MI!5e0!3m2!1sit!2sit!4v1761225190693!5m2!1sit!2sicd"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
@@ -247,8 +247,9 @@ const App = () => {
               <h3 className="text-xl sm:text-2xl font-bold text-gray-800">Orari</h3>
             </div>
             <div className="space-y-3 sm:space-y-4 text-center">
-              <p className="text-gray-700 text-base sm:text-lg"><span className="font-bold text-pink-600">Lun - Ven:</span> 9:00 - 19:00</p>
-              <p className="text-gray-700 text-base sm:text-lg"><span className="font-bold text-pink-600">Sabato:</span> 9:00 - 18:00</p>
+              <p className="text-gray-700 text-base sm:text-lg"><span className="font-bold text-pink-600">Lunedì</span> 9:00 - 15:00</p>
+              <p className="text-gray-700 text-base sm:text-lg"><span className="font-bold text-pink-600">Mar- Ven:</span> 9:00 - 19:00</p>
+              <p className="text-gray-700 text-base sm:text-lg"><span className="font-bold text-pink-600">Sabato:</span> 9:00 - 15:00</p>
               <div className="pt-3 sm:pt-4 border-t-2 border-pink-100">
                 <p className="text-pink-500 font-bold text-base sm:text-lg">Domenica: Chiuso</p>
               </div>
